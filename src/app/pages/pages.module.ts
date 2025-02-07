@@ -37,9 +37,10 @@ import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { ProductsComponent } from './products/products.component';
 import { SliderCategoryComponent } from './slider-category/slider-category.component';
 import { ClientReviewComponent } from './client-review/client-review.component';
-import { PaginationComponent } from './pagination/pagination.component';
+// import { PaginationComponent } from './pagination/pagination.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -69,7 +70,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     ProductsComponent,
     SliderCategoryComponent,
     ClientReviewComponent,
-    PaginationComponent
+    // PaginationComponent
   ],
   imports: [
     CommonModule,
@@ -81,7 +82,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     NgxPaginationModule,
     NgbPaginationModule,
     NgxSliderModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    RouterModule
 
   ]
 })

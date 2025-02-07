@@ -9,6 +9,8 @@ import { SharedModule } from './shared/shared.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router'
 import { LoadingBarModule } from '@ngx-loading-bar/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { LoadingBarModule } from '@ngx-loading-bar/core';
     NgbModule,
     FormsModule,
     LoadingBarRouterModule,
-    LoadingBarModule
+    LoadingBarModule,
+    CommonModule ,
+    RouterModule
 
   ],
   providers: [],

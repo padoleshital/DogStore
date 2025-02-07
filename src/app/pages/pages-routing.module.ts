@@ -12,7 +12,7 @@ import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
 import { OrderTarckingComponent } from './order-tarcking/order-tarcking.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { PaginationComponent } from './pagination/pagination.component';
+//import { PaginationComponent } from './pagination/pagination.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ProductGridComponent } from './product-grid/product-grid.component';
@@ -108,10 +108,10 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
-  {
-    path: 'Pagination',
-    component: PaginationComponent
-  },
+  // {
+  //   path: 'Pagination',
+  //   component: PaginationComponent
+  // },
   {
     path: '**',
     component: PageNotFoundComponent,
